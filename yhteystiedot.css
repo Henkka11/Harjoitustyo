@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+
+.tausta {
+    background-image: url(img/background2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.rullasivupaska {
+    width: 1300px;
+    margin: auto;
+    background-color: rgba(32, 32, 32, 0.651);
+    height: auto;
+    border-left: 2px;
+    border-right: 2px;
+    border-color: rgb(240, 253, 253);
+    border-style: solid;
+
+   
+
+
+}
+
+.navbar{
+    width: 1300px;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(32, 32, 32, 0.651);
+   
+
+    
+}
+
+.logo{
+    width: 400px;
+    cursor: pointer;
+    margin-left: 4%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+   
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    
+
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #db0dfffa;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+    background-color: black;
+
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+.content{
+    width: 70%;
+    height: 200%;
+    top: translateY(-50%);
+    
+    color: #fff;
+   
+    
+    margin: auto;
+    justify-content: space-between;
+    padding: 35px 0;
+
+
+
+
+}
+
+
+
+.content div {
+    background-color: rgba(22, 22, 22, 0.918);
+    width: 75%;
+    height: 20%;
+    margin: auto;
+    border-radius: 3%;
+    margin-top: 10%;
+
+}
+
+
+
+.content h1{
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+}
+.logo{
+    /*transition: 0.3s ease 0s;*/
+    transition: 0.3s;
+    
+}
+
+.logo:hover {
+    transform: translateY(-10px);
+    
+}
+
+h2 {
+    padding: 3%;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content p {
+    margin: 20px;
+}
